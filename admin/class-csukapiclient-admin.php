@@ -101,7 +101,7 @@ class Csukapiclient_Admin {
 	}
         
         function admin_menu(){
-            add_menu_page( __('Charity', 'ApplyOnline'), _x('Charity', 'Admin Menu', 'ApplyOnline'), 'manage_options', 'ccukapi-settings', array($this, 'tab_general'), 'dashicons-heart',31 );
+            add_menu_page( __('Charity', 'ApplyOnline'), _x('Charity', 'Admin Menu', 'ApplyOnline'), 'manage_options', 'ccukapi-settings', array($this, 'settings'), 'dashicons-heart',31 );
         }
         
         public function registers_settings(){
@@ -111,7 +111,7 @@ class Csukapiclient_Admin {
             register_setting( 'ccukapi_settings', 'ccuk_api_key' );
         }
 
-    public function tab_general(){
+    public function settings(){
         ?>
             <form action="options.php" method="post" name="">
                 <table class="form-table">

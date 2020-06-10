@@ -115,7 +115,7 @@ class Csukapiclient_Public {
 
             if(!wp_verify_nonce($nonce, 'the_best_aol_ad_security_nonce')){
                 header( "Content-Type: application/json" );
-                echo json_encode( array( 'success' => false, 'error' => __( 'Session Expired, please try again', 'ApplyOnline' ) ));
+                echo json_encode( array( 'success' => false, 'error' => __( 'Session Expired, please reload page and try again.', 'ccuk' ) ));
                 exit;
             }
         }
