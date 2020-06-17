@@ -131,7 +131,7 @@ class Csukapiclient_Public {
                 </div>
 
                 <form id="ccuk_search_form">
-                    <input type="text" name="ccuk_search_term" /> 
+                    <input type="text" name="ccuk_search_term" placeholder="Search query" /> 
                     <select name="ccuk_search_type"> 
                         <option value="name">By Name</option>
                         <option value="keyword">By Keyword</option>
