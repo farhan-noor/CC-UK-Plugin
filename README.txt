@@ -22,3 +22,4 @@ Function registers_settings() is responsible to save information provided in Cha
 
 == Credits ==
 https://jquerymodal.com/ jQuery Modal to show single charity in the modal popup on the front-end.
+https://github.com/devinvinson/WordPress-Plugin-Boilerplate/ The WordPress Boilerplate Plugin to provide a standardized, organized, object-oriented foundation for building high-quality WordPress Plugins
