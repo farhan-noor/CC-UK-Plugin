@@ -121,6 +121,9 @@ class Csukapiclient_Public {
         }
         
         function search_form($content){
+            if( !is_page(get_option('ccuk_page')) ) 
+                return $content;
+            
             ob_start(); ?>
                 <!-- Modal HTML -->
                 <div id="ccuk-modal" class="modal">
